@@ -1,3 +1,4 @@
+<script type="text/javascript">
 (function() {
   const questionsList = [{
     question: 'new String("This is a string") instanceof String; What is the result ?',
@@ -147,3 +148,4 @@
   previousButton.addEventListener('click', showPreviousQuestion)
   questionsElement.addEventListener("click", highlightSelected)
 })()
+</script>
